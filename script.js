@@ -48,11 +48,17 @@ function result() {
     }
 
     secondNumber = outputField.textContent
-    outputField.textContent = calculate(operation, firstNumber, secondNumber)
+    outputField.textContent = Math.round((calculate(operation, firstNumber, secondNumber) * 1000)) / 1000// this my code, i lost 30m for understanding how its work
+    console.log(calculate(operation, firstNumber, secondNumber))
     operation = null;
 
 }
-
+//-----------------------------------
+//this block i find in internet, i dont use it like example how work math round and try understand.
+// function roundResult(number) {
+//     return Math.round(number * 1000) / 1000
+// }
+//--------------------------------
 // function for math
 function add(a, b) {
     return a + b
