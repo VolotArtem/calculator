@@ -23,3 +23,33 @@ td:nth-child(3){
 td:nth-child(4){
     width: 25%;
 }
+.output{
+    background-color: rgb(224, 236, 247);
+    font-size: 32px;
+    padding-right: 20px;
+    text-align: right;
+}
+.digit,.point{
+    font-size: 18px;
+    background-color: rgb(214, 205, 205);
+}
+.digit:hover{
+    background-color: rgb(187, 142, 142);
+}
+.point:hover{background-color: rgb(187, 142, 142);}
+.point:active{background-color: rgb(64, 204, 64);}
+.digit:active{
+    background-color: rgb(64, 204, 64);
+}
+.operator,.clean,.result{
+    background-color: aqua;
+}
+
+
+.clean:hover{background-color: rgb(32, 218, 171)}
+.result:hover{background-color: rgb(32, 218, 171)}
+.operator:hover{background-color: rgb(32, 218, 171)}
+
+.clean:active{background-color: brown;}
+.result:active{background-color: brown;}
+.operator:active{background-color: brown;}
